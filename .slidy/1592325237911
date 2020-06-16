@@ -1,0 +1,4 @@
+lib/app/modules/menu/telas/pedidos/novoProduto/adicionarCodigoDeBarras/adicionarCodigoDeBarras_page.dart
+test/app/modules/menu/telas/pedidos/novoProduto/adicionarCodigoDeBarras/adicionarCodigoDeBarras_page_test.dart
+lib/app/modules/menu/telas/pedidos/novoProduto/adicionarCodigoDeBarras/adicionarCodigoDeBarras_controller.dart
+test/app/modules/menu/telas/pedidos/novoProduto/adicionarCodigoDeBarras/adicionarCodigoDeBarras_controller_test.dart

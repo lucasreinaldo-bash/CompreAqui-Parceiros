@@ -1,0 +1,4 @@
+lib/app/modules/menu/telas/pedidos/pedidos_page.dart
+test/app/modules/menu/telas/pedidos/pedidos_page_test.dart
+lib/app/modules/menu/telas/pedidos/pedidos_controller.dart
+test/app/modules/menu/telas/pedidos/pedidos_controller_test.dart
