@@ -1,3 +1,6 @@
+import 'package:parceiroscompreaqui/app/modules/menu/telas/pedidos/abertos/abertos_controller.dart';
+import 'package:parceiroscompreaqui/app/modules/menu/telas/pedidos/abertos/abertos_page.dart';
+import 'package:parceiroscompreaqui/app/modules/menu/telas/pedidos/finalizados/finalizados_controller.dart';
 import 'package:parceiroscompreaqui/app/modules/menu/telas/pedidos/pedidos_controller.dart';
 import 'package:parceiroscompreaqui/app/modules/menu/menu_controller.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -11,6 +14,8 @@ class MenuModule extends ChildModule {
         Bind((i) => MenuController()),
         Bind((i) => PedidosController()),
         Bind((i) => ProdutosController()),
+        Bind((i) => AbertosController()),
+        Bind((i) => FinalizadosController()),
       ];
 
   @override
@@ -22,6 +27,12 @@ class MenuModule extends ChildModule {
         Router("/produtos",
             transition: TransitionType.fadeIn,
             child: (_, args) => PedidosPage()),
+        Router("/abertos",
+            transition: TransitionType.fadeIn,
+            child: (_, args) => AbertosPage()),
+        Router("/finalizados",
+            transition: TransitionType.fadeIn,
+            child: (_, args) => AbertosPage()),
       ];
 
   static Inject get to => Inject<MenuModule>.of();

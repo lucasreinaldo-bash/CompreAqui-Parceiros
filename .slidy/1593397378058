@@ -1,0 +1,5 @@
+lib/app/modules/menu/telas/pedidos/finalizados/finalizados_module.dart
+lib/app/modules/menu/telas/pedidos/finalizados/finalizados_page.dart
+test/app/modules/menu/telas/pedidos/finalizados/finalizados_page_test.dart
+lib/app/modules/menu/telas/pedidos/finalizados/finalizados_controller.dart
+test/app/modules/menu/telas/pedidos/finalizados/finalizados_controller_test.dart

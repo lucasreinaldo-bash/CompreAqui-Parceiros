@@ -24,10 +24,41 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  dio: ^3.0.9
+
   flutter_mobx: ^1.1.0
   mobx: ^1.2.1
   flutter_modular: ^1.2.5+1
+  cupertino_icons: ^0.1.2
+  google_maps_flutter: ^0.5.21+15
+  location: ^2.3.5
+  google_sign_in: ^4.5.1
+  qr_flutter: ^3.1.0
+  flutter_staggered_grid_view: ^0.3.0
+  carousel_pro: ^1.0.0
+  flutter_icons: ^1.1.0
+  carousel_slider: ^2.1.0
+  flutter_login:
+  url_launcher: ^5.1.1
+  date_format:
+  flutter_credit_card: 0.1.0
+  dio: ^2.0.0
+  flare_flutter: ^2.0.3
+  cloud_firestore: ^0.12.9
+  transparent_image: ^1.0.0
+  scoped_model: ^1.0.1
+  firebase_auth: ^0.16.1
+  firebase_core:
+  charts_flutter:
+  font_awesome_flutter: ^8.0.1
+  flutter_html: ^1.0.0-pre.1
+  search_widget:
+  flutter_local_notifications:
+  geocoder:
+  image_picker: ^0.6.0+17
+  firebase_storage:
+  image_cropper: ^1.2.1
+  shared_preferences: ^0.5.7
+  path_provider: ^1.6.7
   flutter:
     sdk: flutter
 

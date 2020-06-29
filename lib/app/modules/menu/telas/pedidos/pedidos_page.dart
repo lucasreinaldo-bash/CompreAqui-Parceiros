@@ -30,7 +30,9 @@ class _PedidosPageState extends ModularState<PedidosPage, MenuController> {
                       height: 180,
                       width: 140,
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, "/abertos");
+                    },
                   ),
                   FlatButton(
                     child: Image.asset(
@@ -38,6 +40,9 @@ class _PedidosPageState extends ModularState<PedidosPage, MenuController> {
                       height: 180,
                       width: 140,
                     ),
+                    onPressed: () {
+                      Navigator.pushNamed(context, "/finalizados");
+                    },
                   )
                 ],
               ),
